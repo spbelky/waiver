@@ -6,6 +6,7 @@ class CreateClaims < ActiveRecord::Migration
       t.string  :player_add
       t.string  :player_drop
       t.decimal :bid_amount
+      t.integer :priority
     end
   end
 end
